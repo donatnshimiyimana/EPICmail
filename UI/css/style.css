@@ -4,30 +4,30 @@
     
   }
   
-  body{
-    background: #e9eaea;
-    font-family: 'Roboto', sans-serif;
-    user-select: none;
-    background: url("./mailpic.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
+body{
+  background: #e9eaea;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  background: url("./mailpic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  header{
-    padding: 20px;
-    background-color: #34b3a0;
-  }
+}
 
-  header h1{
-    float: left;
-    color:rgb(255, 63, 63);
-    width: 25%;
-    margin-top: 0px;
-  }
+header{
+  padding: 20px;
+  background-color: #34b3a0;
+}
 
-  nav{
-    font-family: 'Roboto', sans-serif;
+header h1{
+  float: left;
+  color:rgb(255, 63, 63);
+  width: 25%;
+  margin-top: 0px;
+}
+
+nav{
+  font-family: 'Roboto', sans-serif;
 
 }
   nav  li{
@@ -43,33 +43,33 @@
  
 }
   
-  .container{
-    width: 450px;
-    margin: 30px auto;
-  }
+.container{
+  width: 450px;
+  margin: 30px auto;
+}
+
+.signup,
+.login{
+  width: 50%;
+  background: #fff;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #34b3a0;
+}
   
-  .signup,
-  .login{
-    width: 50%;
-    background: #fff;
-    float: left;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #34b3a0;
-  }
-  
-  .signup-form,
-  .login-form{
-    background: #fff;
-    padding: 40px;
-    clear: both;
-    width: 100%;
-    box-sizing: border-box;
-    height: 400px;
-  }
+.signup-form,
+.login-form{
+  background: #fff;
+  padding: 40px;
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
   
   .input{
     width: 100%;
